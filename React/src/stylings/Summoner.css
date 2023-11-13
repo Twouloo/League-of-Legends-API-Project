@@ -1,0 +1,273 @@
+.Summoners {
+  background-image: url('../imgs/bgv3.webp');
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.top-bar {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(5, 52, 69, 0.8);
+  top: -1vh;
+  padding-bottom: 0.5vh;
+  position: absolute;
+}
+
+.top-border {
+  border: none;
+  border-top: 2px solid rgba(5, 52, 69, 0.8);
+  position: absolute;
+  top: 10vh;
+  padding-left: 100vw;
+}
+
+.summonerSearchBar {
+  left: 35vw;
+  top: 2vh;
+  position: absolute;
+  z-index: 2;
+}
+
+.site-count {
+  left: 50vw;
+  position: absolute;
+  width: max-content;
+}
+
+#dashboard {
+  font-size: 1.4rem;
+  transition: 0.15s ease;
+  position: absolute;
+  left: -33vw;
+  top: 1.5vh;
+}
+
+#dashboard:hover {
+  transform: scale(1.12);
+  transition: 0.15s ease;
+  cursor: pointer;
+}
+
+.not-found {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  padding: 15vh 15vw 15vh 15vw;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  transition: 0.15s ease;
+}
+
+.service-down {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  padding: 15vh 15vw 15vh 15vw;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  transition: 0.15s ease;
+  position: absolute;
+  width: 50vw;
+  right: -50vw;
+  top: -10vw;
+
+}
+
+
+.inner-summoner-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 14vw;
+}
+
+.current-player {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 1vh 2vw 1vh 1vw;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+}
+
+.current-player-info {
+  margin-left: 1vw;
+}
+
+.current-player-pfp {
+  border-radius: 50%;
+  width: auto;
+  height: 12vh;
+}
+
+.current-player-name {
+  padding-left: 0vw;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.current-player-rank {
+  margin-top: 0.1vh;
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+
+
+.recent-icons {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 3vh;
+  align-self: center;
+  padding: 0vh 1vw 0vh 1vw;
+  overflow-y: scroll;
+  height: 50vh;
+  cursor: pointer;
+}
+
+
+.recent-container {
+  position: relative;
+  bottom: 24vh;
+  width: 15vw;
+  right: 5vw;
+}
+
+.recent-player-card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-radius: 5px;
+  padding: 1vh 2vw 1vh 1vw;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+}
+
+.recent-player-pfp {
+  height: 10vh;
+  width: auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+.recent-player-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  list-style-type: none;
+  left: 1vw;
+}
+
+.recent-player-title {
+  font-size: 1.8rem;
+  white-space: nowrap;
+  position: relative;
+
+}
+
+.recent-player-rank {
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.stats-container {
+  position: relative;
+  left: 13vw;
+  bottom: 5vh;
+}
+
+.plot-d6a7b5 {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 30vw;
+}
+
+rect {
+  cursor: pointer;
+}
+
+.graph {
+  border-radius: 5px;
+  width: 30vw;
+  height: 30vh;
+  position: relative;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  top: 5vh;
+}
+
+.public-holidays-container{
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  top: 8vw;
+  left: 2vw;
+  width: max-content;
+  position: absolute;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+  padding-bottom: 2vh;
+}
+
+.best-holiday-label{
+  font-size: 1.3rem;
+}
+
+.best-holiday-answer{
+  font-size: 0.9rem;
+}
+
+.next-holiday-label{
+  font-size: 1.3rem;
+}
+
+.get-random-username {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  position: absolute;
+  top: 46vh;
+  align-items: center;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 1vw;
+  width: 16vw;
+  left: 0vw;
+}
+
+.random-username-label{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(100, 100, 100);
+  cursor: pointer;
+  padding: 1vh 1vw 1vh 1vw;
+  text-align: center;
+  width: fit-content;
+  transition: 0.25s;
+}
+
+.random-username-label:hover{
+  border-color: rgb(200, 200, 200);
+  background-color: rgba(50, 50, 50, 0.7);
+  transition: 0.25s;
+}
+
+.random-username-result{
+  text-align: center;
+}

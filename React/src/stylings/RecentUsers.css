@@ -1,0 +1,30 @@
+.recent-player {
+    font-size: 1.2rem;
+    padding: 0vh 0vw 0vh 0vw;
+    list-style-type: none;
+    
+}
+
+.recent-pfp {
+    border-radius: 50%;
+    width: auto;
+    height: 6.5vh;
+    align-self: center;
+    cursor: pointer;
+}
+
+.recent-info-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0vh 0vw 0vh 0vw;
+}
+
+
+.recent-icon-name {
+    margin-left: 1vw;
+}
+
+.recent-icon-apperance {
+    font-size: 0.9rem;
+    margin-left: 1vw;
+}
