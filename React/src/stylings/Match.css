@@ -1,0 +1,240 @@
+.match-card {
+    bottom: 1vh;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 1vh;
+    height: 14vh;
+    transform: scale(1);   
+    transform-origin: 'top left';
+    cursor: pointer;
+}
+
+#win {
+    background-color: rgba(2, 0, 37, 0.8);
+    border: 1px rgb(69, 63, 187) solid;
+}
+
+#lose {
+    background-color: rgba(50, 0, 0, 0.8);
+    border: 1px rgb(114, 38, 38) solid;
+}
+
+.match-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-mode {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 625;
+    margin-left: 1vw;
+    bottom: 1vh;
+}
+
+.game-time-since-played {
+    position: relative;
+    bottom: 5vh;
+    margin-left: 1vw;
+    font-size: 0.7rem;
+    color: rgb(166, 166, 166);
+}
+
+.game-duration {
+    position: relative;
+    bottom: 13vh;
+    margin-left: 1vw;
+    color: rgb(166, 166, 166);
+    font-size: 0.75rem;
+}
+
+.divider {
+    position: relative;
+    color: transparent;
+    bottom: 7.5vh;
+    margin-left: 1vw;
+    width: 55px;
+    height: 0.7px;
+}
+
+#win .divider{
+    background-color: rgb(21, 0, 117);
+    border: none;
+}
+
+#lose .divider{
+    background-color: rgb(107, 0, 25);
+    border: none;
+}
+
+.victory {
+    position: relative;
+    bottom: 10vh;
+    margin-left: 1vw;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.player-character-build {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.champion-icon {
+    height: 8vh;
+    border-radius: 50px;
+}
+
+.summoner-spells-runes {
+    display: flex;
+    flex-direction: row;
+}
+
+.summoner-spells {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5vw;
+}
+
+.summoner-runes {
+    margin-top: 0.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.spell {
+    margin-top: 1vh;
+    height: 3vh;
+    width: auto;
+    border-radius: 5px;
+}
+
+.primary-rune {
+    height: 4.8vh;
+    width: auto;
+}
+
+.secondary-rune {
+    height: 3vh;
+    width: 1.5vw;
+    margin-left: 0.3vw;
+}
+
+.kda {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+
+.kills {
+    font-weight: 700;
+}
+
+.kda-divider {
+    color: rgb(136, 136, 136);
+    font-weight: 600;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+}
+
+.deaths {
+    font-weight: 700;
+    color: rgb(206, 0, 0);
+}
+
+.assists {
+    font-weight: 700;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.items-top-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.items-bottom-row {
+    display: flex;
+    margin-top: 1vh;
+    flex-direction: row;
+}
+
+.item {
+    border-radius: 5px;
+    height: 3.4vh;
+    margin-left: 0.4vw;
+    width: auto;
+}
+
+.empty-item {
+    border-radius: 5px;
+    height: 4vh;
+    width: 1.8vw;
+    color: transparent;
+    margin-left: 0.4vw;
+}
+
+#win .empty-item {
+    background-color: rgb(34, 23, 90);
+    border: none;
+}
+
+#lose .empty-item {
+    background-color: rgb(63, 1, 1);
+    border: none;
+}
+
+.match-players {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-mates {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.match-player {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 2vh;
+}
+
+.match-player-icon {
+    height: 2vh;
+    width: auto;
+    position: relative;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#current-player-name {
+    color: white;
+}
+
+#other-player-name {
+    color: rgb(151, 151, 151)
+}
+
+.match-player-name {
+    margin-left: 0.1vw;
+    font-size: 0.8rem;
+    position: relative;
+    font-weight: 400;
+    align-self: center;
+}
+
+.team-enemies {
+    margin-left: 1vw;
+}
+
